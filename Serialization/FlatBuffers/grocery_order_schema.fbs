@@ -1,0 +1,50 @@
+include "schema.fbs";
+
+namespace CustomAppProto;
+
+table GroceryOrderMessage
+{
+   ts: float;
+   veggies: [VeggieDetail];
+   drinks: [DrinkType];
+   milk: [MilkDetail];
+   bread: [BreadDetail];
+   meat: [MeatDetail];
+}
+
+table VeggieDetail
+{
+  name: string;
+  quantity: float;
+}
+
+table DrinkType
+{
+  name: string; // say the pack type
+  quantity: [DrinkDetail];
+}
+
+table DrinkDetail
+{
+  name: string;
+  quantity: int;
+}
+
+table MilkDetail
+{
+  name: string;
+  quantity: float;
+}
+table BreadDetail
+{
+  name: string;
+  quantity: float;
+}
+
+table MeatDetail
+{
+  name: string;
+  quantity: float;
+}
+
+root_type GroceryOrderMessage;

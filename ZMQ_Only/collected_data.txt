@@ -1,0 +1,62 @@
+topology 1:
+client1singledelay1msec average time = 0.625854332447052
+0.6259
+2client2singledelay1msec average time = 1.002140371799469
+2client1singledelay1msec average time = 1.006132423877716
+1.0041
+3client1singledelay1msec average time = 1.442854371070862
+3client2singledelay1msec average time = 1.4648668003082275
+3client3singledelay1msec average time = 1.4457122325897216
+1.4511
+client1singledelay1msec5loss average time = 0.9376887559890748
+0.9377
+2client1singledelay1msec5loss average time = 1.104950008392334
+2client2singledelay10msec5loss average time = 1.1284232330322266
+1.1167
+3client2singledelay1msec5loss average time = 1.5727392029762268
+3client3singledelay1msec5loss average time = 1.577380735874176
+3client1singledelay1msec5loss average time = 1.6059212374687195
+1.5853
+topology 2:
+1client1lineardelay1msec average time = 0.7437172293663025
+0.7437
+2client1lineardelay1msec average time = 1.0034161114692688
+2client1lineardelay1msec average time = 1.009676296710968
+1.0065
+3client2lineardelay1msec average time = 1.4964034247398377
+3client3lineardelay1msec average time = 1.5057208490371705
+3client1lineardelay1msec average time = 1.5041902661323547
+1.5021
+client1lineardelay1msec5loss average time = 1.3156504917144776
+1.3157
+2client1lineardelay1msec5loss average time = 1.3907623672485352
+2client2lineardelay1msec5loss average time = 1.3858343648910523
+1.3883
+3client1lineardelay1msec5loss average time = 1.694733202457428
+3client3lineardelay1msec5loss average time = 1.7285394883155822
+3client2lineardelay1msec5loss average time = 1.7566946697235108
+1.7267
+topology 3:
+1clienttree1msdelaynolossjumptoh5 average time = 0.9609622168540954
+0.9610
+1clienttree1msdelaynolossjumptoh6 average time = 0.8121371030807495
+0.8121
+2clienttree1msdelay0lossjumptoh5 average time = 0.7521356248855591
+0.7521
+2clienttree1msdelay0lossjumptoh6 average time = 0.721793417930603
+0.7218
+1clienttree1msdelay5lossjumptoh5 average time = 3.434630861282349
+3.4346
+1clienttree1msdelay5lossjumptoh6 average time = 2.795419518947601
+2.7954
+2clienttree1msdelay5lossjumptoh5 average time = 3.6232174611091614
+3.6232
+2clienttree1msdelay5lossjumptoh6 average time = 4.273955345153809
+4.2740
+
+Hello average time = 0.5188307762145996
+Hello average time = 0.5055509805679321
+Hello1905 average time = 0.5066569089889527
+Hello1905 average time = 0.5138137102127075
+Hello1905 average time = 0.5131932497024536
+Hello1905 average time = 0.5141146659851075

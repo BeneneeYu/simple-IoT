@@ -1,0 +1,14 @@
+include "schema.fbs";
+include "grocery_order_schema.fbs";
+include "health_status_schema.fbs";
+include "response_schema.fbs";
+namespace CustomAppProto;
+
+union Any {GroceryOrderMessage, HealthStatusMessage, ResponseMessage }
+table Message
+{
+    message_type: string;
+    data: Any;
+}
+
+root_type Message;

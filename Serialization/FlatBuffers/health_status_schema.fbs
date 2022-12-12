@@ -1,0 +1,16 @@
+include "schema.fbs";
+
+namespace CustomAppProto;
+
+table HealthStatusMessage
+{
+   ts: float;
+   dispenser: string;
+   icemaker: int;
+   lightbulb: string;
+   fridge_temp: int;
+   freezer_temp: int;
+   sensor_status: string;
+}
+
+root_type HealthStatusMessage;

@@ -1,0 +1,12 @@
+include "schema.fbs";
+
+namespace CustomAppProto;
+
+table ResponseMessage
+{
+   ts: float;
+   code: string;
+   contents: string;
+}
+
+root_type ResponseMessage;
